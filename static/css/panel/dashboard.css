@@ -1,0 +1,468 @@
+/*INICIO: ESTILOS DE LA PUBLICACIÓN:RIGHT:PUBLICACION:INFORMATION:RULETA*/
+.search-principal {
+	display: none;
+}
+.right
+{
+	width: 100%;
+}
+.pub-information .ruleta
+{
+	padding-top: 20px;
+}
+.ruleta
+{
+	width: 100%;
+	display: inline-block;
+	vertical-align: top;
+}
+#slider2
+{
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  margin: 0 auto;
+}
+.rslides_tabs
+{
+  list-style: none;
+  padding: 0;
+  background: rgba(0,0,0,.25);
+  font-size: 18px;
+  list-style: none;
+  margin: 0;
+  max-width: 540px;
+  padding: 5px 0;
+  text-align: center;
+  width: 100%;
+}
+.rslides_tabs li
+{
+  display: inline;
+  float: none;
+  margin-right: 1px;
+}
+.rslides_tabs a
+{
+  width: auto;
+  line-height: 20px;
+  padding: 5px 10px;
+  height: auto;
+  background: transparent;
+  display: inline;
+  color: black;
+}
+.rslides_tabs li:first-child
+{
+  margin-left: 0;
+}
+.rslides_tabs .rslides_here a
+{
+	  background: rgba(50,50,50,.5);
+	  color: #fff;
+	  font-weight: bold;
+}
+#rslides2
+{
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	margin: 0 auto;
+}
+.rslides
+{
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.rslides
+{
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto 40px;
+}
+.rslides
+{
+	box-shadow: 0 0 20px #000;
+	-moz-box-shadow: 0 0 20px #000;
+	-webkit-box-shadow: 0 0 20px #000;
+	margin: 0 auto 40px;
+}
+.rslides li:first-child
+{
+	position: relative;
+	display: block;
+	float: left;
+}
+.rslides li
+{
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.rslides li img
+{
+	display: block;
+	height: 200px;
+	float: left;
+	width: 200px;
+	border: 0;
+}
+
+/*FIN: ESTILOS DE LA PUBLICACIÓN:RIGHT:PUBLICACION:INFORMATION:RULETA*/
+
+/*INICIO:ESTILOS DEL PANEL*/
+.panel_usuario
+{
+	background: #565a5c;
+}
+.panel_usuario .panel
+{
+	padding: 0% 1% 0 1%;
+}
+.panel_usuario .panel ul li
+{
+	display: inline-block;
+}
+.panel_usuario .panel ul li a
+{
+	color: #D3D3D3;
+	font-size: 14px;
+}
+@media screen and (min-width: 801px) {
+	.panel_usuario .panel ul li
+	{
+		padding: 1% 2% 0 0;
+	}
+	.panel_usuario .panel ul li .bottom
+	{
+		width: 100%;
+		border-bottom: 5px solid #f5f5f5;
+		padding-top: 8px;
+	}
+}
+
+@media screen and (min-width: 518px) and (max-width: 800px) {
+	.panel_usuario .panel ul .mobile_menu
+	{
+		background: #f5f5f5;
+	}
+	.panel_usuario .panel ul .mobile_menu a
+	{
+		color: #565a5c;
+	}
+	.panel_usuario .panel ul li
+	{
+		padding: 1% 2% 1% 0;
+		width: 30%;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 311px) and (max-width: 517px) {
+	.panel_usuario .panel ul .mobile_menu
+	{
+		background: #f5f5f5;
+	}
+	.panel_usuario .panel ul .mobile_menu a
+	{
+		color: #565a5c;
+	}
+	.panel_usuario .panel ul li
+	{
+		padding: 1% 2% 1% 2%;
+		width: 45%;
+	}
+}
+@media screen and (max-width: 310px) {
+	.panel_usuario .panel ul .mobile_menu
+	{
+		background: #f5f5f5;
+	}
+	.panel_usuario .panel ul .mobile_menu a
+	{
+		color: #565a5c;
+	}
+	.panel_usuario .panel ul li
+	{
+		padding: 1% 2% 2% 3%;
+		width: 94%;
+	}
+}
+/*FINAL: ESTILOS DEL PANEL*/
+
+
+
+/*INICIO: ESTILOS DEL TOP-PROFILE:LEFT*/
+.content_usuario
+{
+	background: #f5f5f5;
+}
+#profile
+{
+	padding: 20px 10px;
+	background: #f5f5f5;
+}
+#profile .top .left_user .social_contact .title
+{
+	padding: 10px;
+	background-color: #edefed;
+	color: #565a5c;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#profile .top .left_user .social_contact .title a
+{
+	padding-left: 10px;
+}
+#profile .top .left_user .social_contact
+{
+	border: 1px solid #dce0e0;
+	background-color: #fff;
+	border-radius: 0;
+	margin-top: 20px;
+}
+#profile .top .left_user .social_contact .content
+{
+	padding: 10px;
+	font-size: 16px;
+}
+#profile .top .left_user .social_contact .content a
+{
+	padding: 10px 0;
+	color: #565a5c;
+	font-size: 15px;
+}
+#profile .top .left_user .social_contact .content a:hover
+{
+	text-decoration: underline;
+}
+
+#profile .top .left_user .photos_user{
+	border: 1px solid #dce0e0;
+/*	background-color: #fff;*/
+	border-radius: 0;
+	/*margin-top: 20px;*/
+}
+
+@media screen and (min-width: 547px) {
+	#profile .top .left_user
+	{
+		max-width: 200px;
+		display: inline-block;
+		vertical-align: top;
+	}
+	#profile .top .left_user .photos_user
+	{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 546px) {
+	#profile .top .left_user
+	{
+		width: 100%;
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 auto 20px auto;
+	}
+	#profile .top .left_user .photos_user
+	{
+		width: 200px;
+		margin: 0 auto;
+	}
+}
+@media screen and (min-width: 341px) and (max-width: 546px) {
+	#profile .top .left_user
+	{
+		/*background: rgba(0,0,0,.25);*/
+	}
+}
+#profile .top .left_user .ruleta
+{
+	position: relative;
+}
+#profile .top .left_user .ruleta .prev,#profile .top .left_user .ruleta .next
+{
+	position: absolute;
+	top: 32%;
+	z-index: 2;
+	padding: 10px;
+	color: rgba(202, 204, 205, 0.46);
+	font-size: 45px;
+}
+#profile .top .left_user .ruleta .prev:hover,#profile .top .left_user .ruleta .next:hover
+{
+	color: #cacccd;
+}
+#profile .top .left_user .ruleta .prev
+{
+	left: 0;
+}
+#profile .top .left_user .ruleta .next
+{
+	right: 0;
+}
+/*FIN: ESTILOS DEL TOP-PROFILE:LEFT*/
+
+
+
+/*INICIO: ESTILOS DEL TOP-PROFILE:RIGHT*/
+
+#profile .top .right_user
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+@media screen and (min-width: 966px) {
+	#profile .top .right_user
+	{
+		width: 75%;
+		padding-left: 3%;
+	}
+}
+@media screen and (min-width: 853px) and (max-width: 965px) {
+	#profile .top .right_user
+	{
+		width: 72%;
+		padding-left: 3%;
+	}
+}
+@media screen and (min-width: 717px) and (max-width: 852px) {
+	#profile .top .right_user
+	{
+		width: 66%;
+		padding-left: 4%;
+	}
+}
+@media screen and (min-width: 620px) and (max-width: 716px) {
+	#profile .top .right_user
+	{
+		width: 61%;
+		padding-left: 4%;
+	}
+}
+@media screen and (min-width: 547px) and (max-width: 619px) {
+	#profile .top .right_user
+	{
+		width: 56%;
+		padding-left: 4%;
+	}
+}
+#profile .top .right_user
+{
+	color: #565a5c;
+}
+#profile .top .right_user .notifications
+{
+	border: 1px solid #dce0e0;
+	background-color: #fff;
+	margin-top: 10px;
+}
+#profile .top .right_user .notifications .title
+{
+	padding: 10px;
+	background-color: #edefed;
+	color: #565a5c;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#profile .top .right_user .notifications .title a:hover
+{
+	text-decoration: underline;
+}
+#profile .top .right_user .notifications .title a
+{
+	padding-left: 10px;
+}
+#profile .top .right_user .notifications .content
+{
+	padding: 10px;
+}
+#profile .top .right_user .notifications .content .particular_noti
+{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #dce0e0;
+	font-size: 15px;
+}
+@media screen and (min-width: 966px) {
+	#profile .top .right_user .name
+	{
+		font-size: 27px;
+		font-weight: bold;
+	}
+}
+@media screen and (min-width: 781px) and (max-width: 965px) {
+	#profile .top .right_user .name
+	{
+		font-size: 24px;
+		font-weight: bold;
+	}
+}
+@media screen and (min-width: 547px) and (max-width: 780px) {
+	#profile .top .right_user .name
+	{
+		font-size: 23px;
+		font-weight: bold;
+	}
+}
+@media screen and (max-width: 546px) {
+	#profile .top .right_user .name
+	{
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
+/*FIN: ESTILOS DEL TOP-PROFILE:RIGHT*/
+
+
+/*INICIO: ESTILOS DEL MIDDLE:PUBLICACIONES */
+#profile .middle
+{
+	min-height: 400px;
+}
+#profile .middle .publications
+{
+	margin: 20px 0;
+	border: 1px solid #dce0e0;
+	background: white;
+}
+#profile .middle .publications .title_pub
+{
+	padding: 10px;
+	background-color: #edefed;
+	color: #565a5c;
+	font-weight: bold;
+	font-size: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#profile .middle .publications .pub
+{
+	padding: 10px 10px;
+	border-bottom: 1px solid #dce0e0;
+}
+#profile .middle .publications .pub a
+{
+	color: #565a5c;
+}
+#profile .middle .publications .pub a:hover
+{
+	text-decoration: underline;
+}
+/*FIN: ESTILOS DEL MIDDLE:PUBLICACIONES */

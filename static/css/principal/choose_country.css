@@ -1,0 +1,381 @@
+html, body, nav, ul, li, a,p,h1,h2,h3,h4  {margin: 0; padding: 0;}
+body{font-family: 'Open Sans', Helvetica, Arial, sans-serif;height: 100%;}
+a {text-decoration: none;}
+
+#container
+{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+/* INICIO: ESTILOS DEL MENU */
+header,section
+{
+	width: 100%;
+}
+.main-menu
+{
+	position: fixed;
+	top: 0;
+	z-index: 999;
+	left: 0;
+	background: white;
+	border-bottom: 1px solid #dbdbdb;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+header .header-top
+{
+	padding-top: 5px;
+}
+header .header-top .logo img
+{
+	width: 140px;
+}
+@media screen and (min-width: 801px) {
+		header .header-top
+		{
+			position: relative;
+		}
+		header .header-top .logo
+		{
+			display: inline-block;
+			margin: 0;
+			padding-left: 20px;
+		}
+}
+@media screen and (max-width: 800px) {
+		header .header-top .logo
+		{
+			text-align: center;
+		}
+}
+/* FIN: ESTILOS DEL MENU */
+
+
+
+
+/*INCICIO DE ESTILOS DEL LEFT:SELECT COUNTRY */
+.select_country
+{
+	margin-top: 52px;
+}
+.content_select
+{
+	padding: 10% 10px;
+}
+.content_select .left,.content_select .right
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+@media screen and (min-width: 801px) {
+	.content_select .left
+	{
+		width: 40%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.content_select .left
+	{
+		width: 95%;
+	}
+}
+/*FIN DE ESTILOS DEL LEFT:SELECT COUNTRY */
+
+
+
+
+
+
+
+/*INCICIO DE ESTILOS DEL RIGHT:SELECT COUNTRY */
+@media screen and (min-width: 801px) {
+	.content_select .right
+	{
+		width: 40%;
+		padding-left: 5%;
+	}
+	.content_select .left .image_content img
+	{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 601px) and (max-width: 800px) {
+	.content_select .right
+	{
+		width: 95%;
+		padding-top: 15px;
+	}
+	.content_select .left .image_content
+	{
+		text-align: center;
+	}
+	.content_select .left .image_content img
+	{
+		width: 60%;
+	}
+}
+@media screen and (max-width: 600px) {
+	.content_select .right
+	{
+		width: 95%;
+		padding-top: 20px;
+	}
+	.content_select .left .image_content
+	{
+		text-align: center;
+	}
+	.content_select .left .image_content img
+	{
+		width: 70%;
+	}
+}
+.content_select .right h1
+{
+	font-size: 27px;
+	color: #16a085;
+	margin-bottom: 10px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.select_country_form
+{
+	margin-top: 20px;
+	width: 80%;
+	background: rgb(240, 240, 240);
+}
+.select_country_form select {
+	width: 100%;
+	padding: 2px 5px;
+	border: 0;
+	height: 31px;
+	line-height: 1.5;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	font-size: 15.5px;
+	color: rgb(141, 141, 141);
+	background: transparent url('http://tudemia.com/img/select_form.png') no-repeat scroll 100% 0px;
+}
+
+
+/*FIN DE ESTILOS DEL RIGHT:SELECT COUNTRY */
+
+
+
+
+/*INICIO: ESTILOS DEL FOOTER */
+.footer-top-x
+{
+	background: #34495e;
+}
+.top-footer
+{
+	padding: 10px;
+}
+.top-footer .logo,.top-footer .content, .top-footer .social
+{
+	display: inline-block;
+	vertical-align: top;
+}
+.top-footer .logo
+{
+	padding: 10px 20px;
+}
+.top-footer .social div p
+{
+	padding-bottom: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+	font-size: 17px;
+}
+.top-footer .content li a
+{
+	font-size: 17px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: white;
+}
+.top-footer .social li
+{
+	display: inline-block;
+	padding: 10px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background: #16a085;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	margin-right: 10px;
+	color: white;
+}
+.top-footer .social li a
+{
+	color: rgb(49,99,126);
+}
+.top-footer .social li a i
+{
+	font-size: 22px;
+}
+
+@media screen and (min-width: 934px) {
+		.top-footer .logo a img
+		{
+			width: 80%;
+		}
+		.top-footer .content
+		{
+			padding: 20px 60px 10px 60px;
+		}
+		.top-footer .content li
+		{
+			list-style: none;
+		}
+		.top-footer .social
+		{
+			padding: 20px 60px 10px 60px;
+		}
+}
+
+@media screen and (min-width: 794px) and (max-width: 933px) {
+		.top-footer .logo a img
+		{
+			width: 80%;
+		}
+		.top-footer .content
+		{
+			padding: 20px 20px 10px 20px;
+		}
+		.top-footer .content li
+		{
+			list-style: none;
+		}
+		.top-footer .social
+		{
+			padding: 20px 30px 10px 30px;
+		}
+}
+
+
+
+@media screen and (min-width: 550px) and (max-width: 793px) {
+		.top-footer .logo
+		{
+			display: none;
+		}
+		.top-footer .content
+		{
+			padding: 20px 20px 10px 20px;
+		}
+		.top-footer .content li
+		{
+			list-style: none;
+		}
+		.top-footer .social
+		{
+			padding: 20px 30px 10px 30px;
+		}
+}
+
+
+
+@media screen and (min-width: 490px) and (max-width: 549px) {
+		.top-footer .logo
+		{
+			display: none;
+		}
+		.top-footer .content
+		{
+			padding: 20px 10px 10px 10px;
+		}
+		.top-footer .content li
+		{
+			list-style: none;
+		}
+		.top-footer .social
+		{
+			padding: 20px 10px 10px 10px;
+		}
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 489px) {
+		.top-footer .logo
+		{
+			display: none;
+		}
+		.top-footer .content
+		{
+			padding: 20px 0px 10px 0px;
+		}
+		.top-footer .content li
+		{
+			display: inline-block;
+			width: 49%;
+		}
+		.top-footer .social
+		{
+			padding: 20px 0px 10px 0px;
+		}
+}
+
+
+@media screen and (max-width: 389px) {
+		.top-footer .logo,.top-footer .content, .top-footer .social
+		{
+			text-align: center;
+		}
+		.top-footer .logo
+		{
+			display: none;
+		}
+		.top-footer .content
+		{
+			padding: 10px 0px 10px 0px;
+			width: 95%;
+		}
+		.top-footer .content li
+		{
+			display: block;
+			text-align: center;
+		}
+		.top-footer .social
+		{
+			padding: 10px 0px 10px 0px;
+			width: 100%;
+		}
+		.top-footer .social div
+		{
+			display: none;
+		}
+}
+
+
+/*FIN: ESTILOS DEL FOOTER */
+
+/*INICIO: ESTILOS TERMINOS-FOOTER */
+.terminos-footer{
+	background: #2c3e50;
+	color: white;
+}
+.terminos-footer ul p{
+	padding: 10px;
+	color: white;
+}
+
+@media screen and (min-width: 389px) {
+		.terminos-footer ul p
+		{
+			font-size: 14.5px;
+		}
+}
+
+@media screen and (max-width: 389px) {
+		.terminos-footer ul p
+		{
+			font-size: 13.5px;
+		}
+}
+	
+/*FIN: ESTILOS TERMINOS-FOOTER */

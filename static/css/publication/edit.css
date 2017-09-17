@@ -1,0 +1,223 @@
+.create-publication{
+	background: #f5f5f5;
+}
+.create-publication .create-art{
+	padding: 10px;
+}
+.create-publication .create-art .create-form{
+	padding: 10px;
+	margin: 10px 0 20px 0;
+	background: white;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.create-publication .create-art .create-form h1{
+	font-size: 20px;
+	color: #565a5c;
+	font-family: Helvetica, Arial, sans-serif;
+	border-bottom: 2px solid #dce0e0;
+	padding-bottom: 5px;
+}
+.create-publication .create-art .create-form h3{
+	padding: 5px;
+	color: rgb(255, 0, 0);
+	display: inline-block;
+	font-size: 17px;
+	font-weight: normal;
+}
+.create-publication .create-art .create-form p{
+	font-size: 18px;
+	color: rgb(15, 137, 42);
+	padding: 15px 0;
+}
+.type, .type-form,.city,.city-form,.title,.title-form,.type_price,.type_price-form,.price,.price-form,.habilit,.habilit-form{
+	display: inline-block;
+}
+.habilit-form .habi-y{
+	display: inline-block;
+	padding: 5px;
+	background: rgb(58, 130, 203);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 15px;
+	font-size: 13px;
+	color: white;
+	font-weight: normal;
+}
+.habilit-form .habi-n{
+	display: inline-block;
+	padding: 5px;
+	background: rgb(189, 54, 54);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 15px;
+	font-size: 13px;
+	color: white;
+	font-weight: normal;
+}
+.habilit-form span a{
+	margin-left: 12px;
+	color: rgb(11, 113, 49);
+}
+.type,.city,.title,.type_price,.price,.habilit{
+	width: 250px;
+	color: #565a5c;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+.type-publication,.city-publication,.title-publication,.type_price-publication,.price-publication,.description-publication,.habilit-publication{
+	padding: 10px 10px 0 10px;
+}
+.type-publication,.city-publication,.title-publication,.type_price-publication,.price-publication,.description-publication .description,.habilit-publication{
+	padding-bottom: 10px;
+}
+.form-fields select{
+	display: inline-block;
+	padding: 5px;
+	font-size: 14px;
+	width: 290px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.form-fields input{
+	display: inline-block;
+	padding: 5px;
+	font-size: 15px;
+	width: 275px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.description-form textarea{
+	margin-left: 10px;
+	width: 90%;
+	padding: 10px;
+	font-size: 16px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+article .bottom-photo-principal,
+article .bottom-photo-publication
+{
+	padding: 10px 10px 0 10px;
+	margin: 10px 0 20px 0;
+	background: rgba(255, 255, 255, 0.74);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+article .bottom-photo-principal .photo-principal,
+article .bottom-photo-publication .photo-publication
+{
+	display: inline-block;
+	vertical-align: top;
+}
+article .bottom-photo-publication .photo-publication .photo-content{
+	/*height: 200px;*/
+	padding-bottom: 15px;
+}
+article .bottom-photo-principal .change-photo-principal,
+article .bottom-photo-publication .change-photo-publication
+{
+	display: inline-block;
+	vertical-align: top;
+	padding:10px;
+}
+article .bottom-photo-principal .change-photo-principal .top .upd,
+article .bottom-photo-publication .change-photo-publication .top .upd
+{
+	font-size: 22px;
+	color: rgba(22, 158, 168, 1);
+	padding: 8px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+article .bottom-photo-principal .change-photo-principal .top .adv,
+article .bottom-photo-publication .change-photo-publication .top .adv
+{
+	font-size: 14px;
+	color: rgb(129, 129, 129);
+	padding: 8px;
+}
+article .bottom-photo-principal .change-photo-principal .bottom,
+article .bottom-photo-publication .change-photo-publication .bottom
+{
+	padding: 10px 0;
+}
+article .bottom-photo-principal .change-photo-principal .bottom input,
+article .bottom-photo-publication .change-photo-publication .bottom input
+{
+	color: rgba(22, 158, 168, 1); */
+	font-weight: bold;
+	border: 2px solid rgba(22, 158, 168, 1);
+	padding: 12px 10px 8px 8px;
+	-webkit-border-radius: 4.5px;
+	-moz-border-radius: 4.5px;
+	border-radius: 4.5px;
+	background: rgba(186, 227, 205, 0.69);
+	cursor: pointer;
+	font-size: 14px;
+}
+article .bottom-photo-principal .change-photo-principal .bottom #txtFakeText,
+article .bottom-photo-publication .change-photo-publication .bottom #txtFakeText
+{
+	color: rgba(22, 158, 168, 1);
+	border: .5px solid rgba(186, 227, 205, 0.69);
+	background: rgba(186, 227, 205, 0.69);
+	cursor: default;
+}
+.cancel-summit{
+	margin: 20px 0;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.74);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.cancel-summit .cancel{
+	padding: 5px 10px 5px 10px;
+	-webkit-border-radius: 4.5px;
+	-moz-border-radius: 4.5px;
+	border-radius: 4.5px;
+	background: rgb(203, 58, 58);
+	cursor: pointer;
+	font-size: 15px;
+	margin-right: 10px;
+	display: inline-block;
+}
+.cancel-summit .cancel a{
+	color: white;
+}
+.cancel-summit .summit{
+	display: inline-block;
+}
+.cancel-summit .summit input{
+	color: white;
+	padding: 6px 10px 6px 10px;
+	-webkit-border-radius: 4.5px;
+	-moz-border-radius: 4.5px;
+	border-radius: 4.5px;
+	background: rgb(58, 130, 203);
+	cursor: pointer;
+	font-size: 15px;
+	border: none;
+}
+.create-form .form-fields .clarification{
+	background:rgb(243, 243, 243);
+	border: 1px solid #dce0e0;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 10px 0;
+}
+.create-form .form-fields .clarification p{
+	padding: 10px;
+	font-size: 15px;
+	color: rgb(129, 129, 129);
+}
+.create-form .form-fields .clarification p span{
+	font-family: cursive;
+	font-weight: bold;
+}

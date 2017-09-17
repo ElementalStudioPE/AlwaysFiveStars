@@ -1,0 +1,310 @@
+.usuario-id-user{
+	background: #f5f5f5;
+}
+select{
+	padding: 5px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	width: 200px;
+	font-size: 14px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+.content-formulario{
+	padding: 10px;
+}
+.spw h1{
+	font-size: 20px;
+	color: #565a5c;
+	font-family: Helvetica, Arial, sans-serif;
+	margin-bottom: 5px;
+}
+
+.content-formulario .second-form{
+	padding: 10px;
+	background: white;
+	border: 1px solid #dce0e0;
+}
+.content-formulario .second-form .spw{
+	border-bottom: 2px solid #dce0e0;
+}
+.content-formulario .second-form .title{
+	width: 140px;
+	font-size: 15px;
+	display: inline-block;
+	color: #565a5c;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+.content-formulario .second-form .form-control{
+	display: inline-block;
+	padding: 5px;
+	font-size: 15px;
+	width: 250px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.content-formulario .second-form .first-name,
+.content-formulario .second-form .last-name,
+.content-formulario .second-form .email,
+.content-formulario .second-form .country,
+.content-formulario .second-form .city
+{
+	margin: 10px;
+}
+.content-formulario .second-form span{
+	margin-left: 10px;
+	color: red;
+	font-size: 15px;
+}
+.description .title-two{
+	padding: 10px;
+	font-size: 15px;
+	color: #565a5c;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+.description textarea{
+	margin-left: 10px;
+	width: 90%;
+	padding: 10px;
+	font-size: 16px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	resize: none;
+}
+.content-formulario .first-form{
+	margin-top: 20px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.74);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.photo-profile{
+	display: inline-block;
+	vertical-align: top;
+}
+.photo-profile ul li{
+	display: inline-block;
+	padding-right: 10px;
+}
+.photo-profile ul li img{
+	width: 200px;
+	height: 200px;
+}
+.change-photo{
+	display: inline-block;
+	vertical-align: top;
+}
+.change-photo .top .upd{
+	font-size: 22px;
+	color: rgba(22, 158, 168, 1);
+	padding: 8px;
+	font-weight: bold;
+}
+.change-photo .top .adv{
+	font-size: 14px;
+	color: rgb(129, 129, 129);
+	padding: 8px;
+}
+.change-photo .bottom{
+	padding: 10px 0;
+}
+.change-photo .bottom input{
+	color: rgba(22, 158, 168, 1);
+	font-weight: bold;
+	border: 2px solid rgba(22, 158, 168, 1);
+	padding: 12px 10px 8px 8px;
+	-webkit-border-radius: 4.5px;
+	-moz-border-radius: 4.5px;
+	border-radius: 4.5px;
+	background: rgba(186, 227, 205, 0.69);
+	cursor: pointer;
+	font-size: 14px;
+}
+.change-photo .bottom #txtFakeText{
+	color: rgba(22, 158, 168, 1);
+	border: .5px solid rgba(186, 227, 205, 0.69);
+	background: rgba(186, 227, 205, 0.69);
+	cursor: default;
+}
+.cancel-summit{
+	margin: 20px 0;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.74);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.cancel-summit .cancel, .cancel-summit .summit{
+	display: inline-block;
+}
+.cancel-summit .cancel{
+	padding: 5px 10px 5px 10px;
+	-webkit-border-radius: 4.5px;
+	-moz-border-radius: 4.5px;
+	border-radius: 4.5px;
+	background: rgb(203, 58, 58);
+	cursor: pointer;
+	font-size: 15px;
+	margin-right: 10px;
+}
+.cancel-summit .cancel a{
+	color: white;
+}
+.cancel-summit .summit input{
+	color: white;
+	padding: 6px 10px 6px 10px;
+	-webkit-border-radius: 4.5px;
+	-moz-border-radius: 4.5px;
+	border-radius: 4.5px;
+	background: rgb(58, 130, 203);
+	cursor: pointer;
+	font-size: 15px;
+	border: none;
+}
+
+/* INICIO: ESTILOS DEL CALL TO ACTION:REGISTER */
+.text
+{
+	padding: 10px 0;
+	margin-top: 30px;
+}
+.text .big, .text .small
+{
+	text-align: center;
+	padding: 2px;
+	font-family: Helvetica, Arial, sans-serif;
+	color: rgb(73, 73, 73);
+	font-weight: bold;
+}
+.social-sign-up
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.social-sign-up li
+{
+	display: inline-block;
+	padding: 10px;
+	margin: 10px 20px;
+}
+.social-sign-up .fb
+{
+	background: #297fb8;
+	border: 1px solid #47637a;
+	color: white;
+	min-width: 210px;
+	cursor: pointer;
+}
+.social-sign-up .go
+{
+	background: #d03a3c;
+	border: 1px solid #a0393a;
+	color: white;
+	min-width: 210px;
+	cursor: pointer;
+}
+.social-sign-up .in
+{
+	background: #1a97bb;
+	border: 1px solid #07617A;
+	color: white;
+	min-width: 210px;
+	cursor: pointer;
+}
+.social-sign-up li i
+{
+	margin-right: 10px;
+}
+.social-sign-up li i,.social-sign-up li p
+{
+	display: inline-block;
+	font-size: 16px;
+}
+.social-sign-up li i,.social-sign-up li a
+{
+	color: white;
+}
+
+@media screen and (min-width: 811px) {
+	.text .big
+	{
+		font-size: 40px;
+	}
+	.text .small
+	{
+		font-size: 25px;
+	}
+}
+
+@media screen and (min-width: 560px) and (max-width: 810px) {
+	.text .big
+	{
+		font-size: 35px;
+	}
+	.text .small
+	{
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 461px) and (max-width: 559px) {
+	.text .big
+	{
+		font-size: 30px;
+	}
+	.text .small
+	{
+		font-size: 19px;
+	}
+}
+
+@media screen and (min-width: 300px) and (max-width: 460px) {
+	.text .big
+	{
+		font-size: 25px;
+	}
+	.text .small
+	{
+		font-size: 19px;
+	}
+}
+
+@media screen and (max-width: 299px) {
+	.text .big
+	{
+		font-size: 18px;
+	}
+	.text .small
+	{
+		font-size: 15px;
+	}
+	.social-sign-up li
+	{
+		display: inline-block;
+		padding: 5px;
+		margin: 5px 5px;
+	}
+	.social-sign-up .in
+	{
+		background: #1a97bb;
+		border: 1px solid #07617A;
+		color: white;
+		min-width: 210px;
+	}
+	.social-sign-up li i,.social-sign-up li p
+	{
+		display: inline-block;
+		font-size: 13px;
+	}
+	.text {
+		margin-top: 10px;
+	}
+}
+/* FIN: ESTILOS DEL CALL TO ACTION:REGISTER */

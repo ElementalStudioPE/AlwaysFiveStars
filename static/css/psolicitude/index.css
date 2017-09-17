@@ -1,0 +1,185 @@
+.solicitudes-index-principal{
+	background: #f7f7f7;
+}
+.contenido-solicitudes
+{
+	padding: 20px 10px;
+	min-height: 350px;
+}
+.contenido-solicitudes .content .solicitude-zone .filters
+{
+	padding: 10px 0 30px 0;
+	max-width: 300px;
+	margin: 0 auto;
+}
+.contenido-solicitudes .content .solicitude-zone .filters .content_filter .city,
+.contenido-solicitudes .content .solicitude-zone .filters .content_filter .category,
+.contenido-solicitudes .content .solicitude-zone .filters .content_filter .subcategory
+{
+	margin-bottom: 10px;
+}
+.contenido-solicitudes .content .solicitude-zone .filters .content_filter select
+{
+	width: 100%;
+	padding: 2px 5px;
+	border: 0;
+	height: 31px;
+	line-height: 1.5;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	font-size: 15.5px;
+	color: rgb(141, 141, 141);
+	background: white url('http://tudemia.com/img/select_form.png') no-repeat scroll 100% 0px;
+}
+.contenido-solicitudes .content .solicitude-zone .filters .content_filter .action
+{
+	position: relative;
+}
+.contenido-solicitudes .content .solicitude-zone .filters .content_filter .action i
+{
+	position: absolute;
+	right: 30px;
+	top: 9px;
+	color: white;
+	font-size: 20px;
+}
+.contenido-solicitudes .content .solicitude-zone .filters .content_filter .action input
+{
+	color: white;
+	padding: 6.5px;
+	-webkit-border-radius: 2.5px;
+	-moz-border-radius: 2.5px;
+	border-radius: 2.5px;
+	background: rgb(26, 130, 175);
+	cursor: pointer;
+	font-size: 17px;
+	border: none;
+	width: 100%;
+}
+.contenido-solicitudes .content .solicitude-zone .solicitude_li
+{
+	position: relative;
+	padding: 10px;
+	list-style: none;
+	background: white;
+	border-bottom: 1px solid #DDDDDD;
+	margin-bottom: 20px;
+}
+.contenido-solicitudes .content .solicitude-zone .solicitude_li .category
+{
+	position: absolute;
+	left: -5px;
+	top: -7px;
+}
+.contenido-solicitudes .content .solicitude-zone .solicitude_li .category p
+{
+	padding: 8px 10px;
+	background: #16a085;
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.contenido-solicitudes .content .solicitude-zone .solicitude_li .solicitude
+{
+	margin-top: 20px;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .title a
+{
+	color: #565a5c;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .description
+{
+	margin-top: 5px;
+	font-size: 15px;
+	color: #565a5c;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .description p
+{
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 100%;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .city
+{
+	padding: 5px 0 0 0;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .city div
+{
+	color: #565a5c;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+	display: inline-block;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .city p
+{
+	margin-top: 5px;
+	font-size: 15px;
+	color: #565a5c;
+	display: inline-block;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .title a:hover
+{
+	text-decoration: underline;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .view
+{
+	padding: 10px 0;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .view p
+{
+	font-size: 15px;
+	color: #565a5c;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .student .photo_date img
+{
+	border: 1px solid rgb(52, 52, 52);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .student .photo_date .name
+{
+	position: absolute;
+	left: 40px;
+	top: 6px;
+	font-size: 14px;
+	color: #565a5c;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .student .photo_date .name a:hover
+{
+	text-decoration: underline;
+}
+.contenido-solicitudes .content .solicitude-zone li .solicitude .student .photo_date .date
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;: 0;
+	font-size: 15px;
+	color: #565a5c;
+}
+@media screen and (min-width: 501px) {
+	.contenido-solicitudes .content .solicitude-zone li .solicitude .student .photo_date
+	{
+		position: relative;
+		height: 32px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.contenido-solicitudes .content .solicitude-zone li .solicitude .student .photo_date
+	{
+		position: relative;
+		height: 60px;
+	}
+}

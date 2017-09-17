@@ -1,0 +1,11 @@
+/*OCULTAR EL SEARCH DEL HOME*/
+.search-principal
+{
+	display: none;
+}
+
+
+.index_articles .articles
+{
+	padding: 30px 10px;
+}

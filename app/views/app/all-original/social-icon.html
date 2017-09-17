@@ -1,0 +1,3139 @@
+<html><head>
+        <meta charset="UTF-8">
+        <title>    Thank You</title>
+                <style type="text/css">
+                    body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #e3e3e3;
+}
+
+#demo-mode {
+    color: red;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+#kiosk-redirection {
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    margin: 20px;
+}
+
+#kiosk-redirection a {
+    color: red;
+    font-weight: bold;
+}
+
+footer {
+    height: 32px;
+    background: #e3e3e3;
+    text-align: right;
+    color: #4c4c4c;
+    font-size: 14px;
+    padding-top: 17px;
+}
+
+.phone {
+    white-space: nowrap;
+}
+
+.content {
+    width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    background: #fff;
+    border-bottom: 2px solid #e5ebec;
+}
+
+header .content {
+    display: table;
+}
+
+#content {
+    background: #f5f6f8;
+}
+
+.logo {
+    margin: 8px 8px 8px 0;
+    vertical-align: middle;
+    position: relative;
+    max-width: 260px;
+}
+
+header h1 {
+    line-height: 70px;
+    margin: 0;
+    color: #4d4d4d;
+    font-size: 28px;
+    display: table-row;
+}
+
+header h1 img, header h1 span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header h1 span {
+    text-align: right;
+}
+
+.banner {
+    display: block;
+    width: 100%;
+}
+
+#top, .banner, #top .headline {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#top .headline a {
+    color: #fff;
+}
+
+#top {
+    position: relative;
+    top: -1px;
+}
+
+#top .headline {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    background: rgba(64, 68, 71, 0.85);
+    min-height: 40px;
+}
+
+#top .headline.no-logo {
+    position: relative;
+}
+
+#top .headline .separator {
+    padding: 0 10px;
+}
+
+#top .left h2 {
+    font-size: 16px;
+    padding: 11px 15px;
+}
+
+#top .left, #top .right {
+    width: 50%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#top .right {
+    float: right;
+    text-align: right;
+    padding: 10.5px 20px;
+}
+
+#top .right b {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+#top h2 {
+    margin: 0;
+}
+
+#feedback {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 14px;
+    margin: 0;
+}
+
+#feedback .top {
+    color: #ef7823;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#feedback .middle, #feedback .top {
+    padding: 15px;
+}
+
+#feedback .middle .thank-you {
+    color: #444;
+    margin: 10px 0;
+    line-height: 20px;
+}
+
+#feedback .middle .social-link {
+    margin-bottom: 15px;
+    display: table;
+    width: 100%;
+}
+
+.no-copy-paste-feature .copy-paste-section {
+    display: none !important;
+}
+
+#send-direct-review {
+    margin-bottom: -15px !important;
+}
+
+#feedback #error-box {
+    padding: 70px 15px;
+    text-align: center;
+}
+
+#error-box a {
+    color: #767676;
+}
+
+#feedback .middle .overlay {
+    display: table-row;
+}
+
+#feedback .kiosk-mode .social-link {
+    display: none !important;
+}
+
+#feedback .middle .social-link .left, #feedback .middle .social-link .right, #feedback .middle .social-link .text {
+    border-style: solid;
+    border-color: #e5e5e5;
+    display: table-cell;
+    padding: 25px 15px;
+    vertical-align: middle;
+}
+
+#feedback .middle .social-link .left {
+    text-align: center;
+    overflow: hidden;
+}
+
+#feedback .middle .social-link .left.italics{
+    text-align: left;
+    font-style: italic;
+}
+
+#feedback .middle .social-link .left.stretch-more {
+    width: 40%;
+}
+
+#feedback .middle .social-link .right.stretch-little {
+    text-align: left;
+    width: 3%;
+    padding: 30px 0px;
+    margin-right:0px;
+}
+
+#feedback .middle .social-link .left.italics:before{
+    content: "\201C";
+}
+#feedback .middle .social-link .left.italics:after{
+    content: "\201D";
+}
+
+#feedback .middle .social-link .left a {
+    color: #222;
+    text-decoration: none;
+}
+
+#feedback .middle .social-link .left a:hover {
+    text-decoration: underline;
+}
+
+#feedback .middle .social-link .right { 
+    width: 25%;
+    background: #f5f6f8;
+    border-width: 1px 1px 1px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+#feedback .middle .social-link .text { 
+    line-height: 20px;
+    font-size: 13px;
+    border-width: 1px 0;
+    background: #f5f6f8;
+    vertical-align: top;
+    min-height: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#feedback .middle .social-link .submit {
+    margin: 0 auto;
+    width: auto;
+    display: inline-block;
+}
+
+#feedback .middle .social-link .left {
+    border-width: 1px 0 1px 1px;
+    vertical-align: middle;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+}
+
+#feedback .middle .social-link img {
+    display: block;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+#feedback .middle h3 {
+    margin: 15px 0;
+    font-size: 15px;
+    color: #454545;
+}
+
+.bullet-number-selector {
+    padding: 10px 20px;
+    background: #f5f6f8;
+    margin-bottom: 25px;
+}
+
+.bullet-number-selector .legend {
+    text-align: center;
+    font-size: 12px;
+    color: #767676;
+}
+
+.bullet-number-selector .legend .left {
+    float: left;
+}
+
+.bullet-number-selector .legend .right {
+    float: right;
+}
+
+.bullet-number-selector, .bullet-number-selector .bullets {
+    border: 1px solid #ededed;
+    border-radius: 15px;
+}
+
+.bullet-number-selector .bullets {
+    margin: 15px auto 0 auto;
+    background: #fff;
+}
+
+.bullet-number-selector .numbers .hovered {
+    color:#ef7823;
+}
+
+.bullet-number-selector .numbers, .bullet-number-selector .bullets {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bullet-number-selector .bullets div {
+    padding: 5px 0;
+    position: relative;
+    height: 30px;
+}
+
+.bullet-number-selector .numbers div, .bullet-number-selector .bullets div {
+    width: 9.090909%;
+    text-align: center;
+    color: #444;
+    float: left;
+    cursor: pointer;
+}
+
+.bullet-number-selector .numbers div {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+
+.bullet-number-selector .bullets div span {
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 255px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+}
+
+.bullet-number-selector .bullets div.selected span {
+    background: #f27221;
+}
+
+.bullet-number-selector .bullets div span span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -6px;
+    margin-top: -6px;
+    border-radius: 255px;
+    background: #444;
+}
+
+.bullet-number-selector .bullets div.selected span span {
+    background: #f6ae47;
+}
+
+.bullet-number-selector div.clear {
+    float: none;
+    padding: 0;
+    height: 0;
+}
+
+#textarea {
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 15px 15px 25px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 15px;
+    cursor: text;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#feedback input[type=text], #feedback input[type=email], #feedback textarea, #textarea {
+    font-size: 14px;
+    color: #767676;
+}
+
+#feedback .hseparator {
+    height: 10px;
+}
+
+#feedback input[type=text], #feedback input[type=email], #textarea {
+    font-size: 14px;
+    color: #767676;
+    border: 1px solid #767676;
+}
+
+#feedback input[type=text], #feedback input[type=email] {
+    padding: 8px 15px;
+    border-radius: 6px;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#feedback .focused, #feedback input[type=text].focused, #feedback input[type=email].focused, #feedback .focused textarea {
+    background-color: #f5f6f8;
+}
+
+#feedback textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    display: block;
+    width: 100%;
+    height: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#textarea .counter {
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    font-size: 13px;
+}
+
+.hseparator {
+    height: 30px;
+}
+
+.negative {
+    width: 95%;
+}
+
+#feedback .negative textarea {
+    height: 70px;
+}
+
+#feedback .submit img {
+    vertical-align: middle;
+    height: 22px;
+}
+
+#feedback button.submit {
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+#negative-review-reason.padding-top {
+    padding-top: 25px;
+}
+
+#feedback .submit {
+    width: 240px;
+    max-width: 100%;
+    background: #f47322;
+    display: block;
+    margin: 25px auto 10px auto;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+#feedback .middle #review-copy-block { display:block; }
+#feedback .middle #review-copy-block.review-copy-enabled { display: table; }
+#review-copy-block .left { visibility: hidden; }
+#feedback .middle #review-copy-block .text, 
+#feedback .middle #review-copy-block .right { 
+    border-color: transparent; background:none;
+}
+#feedback .middle .copy-button {
+    width: 20%;
+    min-width:120px;
+}
+
+#feedback .middle #review-copy-block #review-copy-text {
+    box-sizing:border-box;
+    border:2px solid #8a8a8a;
+    border-radius: 0.8em;
+    display:block;
+    box-shadow: 1px 1px 14px #b8b8b8;
+    font-weight:500;
+    font-size:1.3em;
+    font-style:italic;
+}
+
+#feedback .middle .social-link .submit#review-copy-button {
+    background: grey;
+}
+
+.hide {
+    display: none;
+}
+
+#review-policy {
+    text-align: center;
+    margin: 25px 0 10px 0;
+    font-size: 12px;
+    color: #454545;
+}
+
+#review-policy a {
+    color: #454545;
+    font-weight: bold;
+}
+
+#review-policy a:hover {
+    color: #000;
+}
+
+.timer1 .s {
+    display: none;
+}
+
+#poweredby {
+    float: left;
+}
+#poweredby a {
+    text-decoration: none;
+    color: inherit;
+}
+#poweredby a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 799px) {
+    body {
+        min-width: 300px;
+    }
+    .content {
+        width: 100%;
+    }
+    #top .banner {
+        width: auto;
+        max-width: 100%;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #top {
+        overflow: hidden;
+    }
+    header, footer {
+        height: auto;
+    }
+    header {
+        min-height: 70px;
+    }
+    header h1 {
+        line-height: normal;
+        padding: 12px 0 7px 0;
+    }
+    footer .content {
+        padding-bottom: 15px;
+    }
+    #top .headline {
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 649px) {
+    #feedback .middle .social-link .submit#review-copy-button {
+        margin-right: 0;
+    }
+
+    #feedback .middle .social-link .text.review-copy-enabled {
+        display: table;
+    }
+
+    #top .banner {
+        display: none;
+    }
+    header h1 span {
+        display: block;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .negative {
+        width: 100%;
+    }
+    #feedback .negative textarea {
+        height: 100px;
+    }
+
+    #top .left, #top .right {
+        width: 100%;
+        float: none;
+        text-align: left;
+        padding: 10px 15px;
+    }
+
+    #top .right {
+        padding-top: 0;
+    }
+
+    #top .left h2, #top .right b {
+        padding: 0;
+    }
+
+    header img {
+        display: block;
+        margin-bottom: 5px;
+    }
+    header h1 {
+        padding: 12px 0;
+    }
+
+    #feedback .middle .social-link, #feedback .middle .social-link .text, #feedback .middle .social-link .overlay, #feedback .middle .social-link .left, #feedback .middle .social-link .right {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border-width: 0;
+        min-height: 0;
+    }
+
+    #feedback .middle .social-link .text {
+        border-width: 0 1px;
+        padding-bottom: 0;
+        display: none;
+    }
+
+    #feedback .middle .social-link .left {
+        border-width: 1px 1px 0 1px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    #feedback .middle .social-link .right {
+        border-width: 0 1px 1px 1px;  
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    #feedback .middle .social-link .left.stretch-more {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    #feedback .middle .social-link .right.stretch-little {
+        text-align: center;
+        width: 100%;
+        padding: 30px 0px;
+        margin-right:0px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .content {
+        padding: 0 10px;
+    }
+
+    .bullet-number-selector {
+        padding: 0;
+        border: none;
+        background: none;
+        margin-top: 30px;
+    }
+
+    .bullet-number-selector .bullets div {
+        padding: 0;
+    }
+
+    .bullet-number-selector .numbers, .bullet-number-selector .bullets {
+        width: 100%;
+    }
+
+    #feedback input[type=text], #feedback input[type=email] { 
+        width: 100%;
+    }
+
+    #poweredby, footer .content {
+        display: block;
+        float: none; 
+        text-align: center;
+    }
+    #poweredby {
+        padding-bottom: 10px;
+    }
+}
+
+a.checkbox {
+    background-color:#fff;
+    width:14px;
+    min-height:14px;
+    height:14px;
+    border-radius:3px 3px 3px 3px;
+    border:1px solid #D8D8D8;
+    padding:0;
+    display:inline-block;
+    width:14px;
+    height:14px;
+    line-height:14px;
+    vertical-align:text-top;
+    background-image:url("/images//dashboard/glyphicons-halflings.png");
+    background-position:14px 14px;
+    background-repeat:no-repeat;
+    margin-right: 5px;
+}
+
+.checked a.checkbox, a.checkbox.checked {
+    background-position: -288px 0;
+}
+
+#askForFeedbackPermission {
+    cursor: pointer;
+}
+
+.g-recaptcha {
+    max-width: 300px;
+    float: left;
+}
+
+
+
+                </style>
+                                <link rel="shortcut icon" href="/images/favicon.ico">
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript">
+            if (!document.queryCommandSupported("copy")) {
+                document.documentElement.classList.add('no-copy-paste-feature');
+            }
+        </script>
+    </head>
+    <body cz-shortcut-listen="true">
+                <header>
+        <div class="content">
+            <h1>
+                                                        <span class="e2w-feedback-page-title">We'd love to hear from you</span>
+                            </h1>
+        </div>
+    </header>
+    <div id="content">
+        <div class="content">
+            <div id="top">
+                                                        <div class="headline no-logo">
+                        <div class="left">
+                            <h2>Kusicode</h2>
+                        </div>
+                        <div class="right">
+                                                    </div>
+                        <div class="clear"></div>
+                    </div>
+                            </div>
+            <div class="hseparator"></div>
+
+            
+        
+    <div id="feedback">
+        <div class="top">
+            <b>Thank you! We appreciate your feedback.</b>
+        </div>
+        <div class="middle">
+            <div class="thank-you ">
+                Thank you for your feedback.<br>
+&nbsp;<br>
+As you likely know, Online Review websites like Google and Yelp are very important marketing tools for gaining new business.<br>
+&nbsp;<br>
+Would you take the time to leave us a review on one of the review sites below?<br>
+&nbsp;<br>
+                        <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/66599?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/yelpv3.png" alt="yelp">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Are you an avid Yelper? Leave us a Yelp review!
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/66599?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/66598?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/facebookv3.png" alt="facebook">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Do you have a Facebook account? Review us on our Facebook Business Page.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/66598?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74440?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/agingcare.png" alt="agingcare">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Helping caregivers of elderly parents find answers on senior housing, home care, elder care, caregiver support, senior financial and legal information.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74440?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74442?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/amazon.png" alt="amazon">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Amazon.com is the largest e-commerce and online retailer company. 
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74442?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74443?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/android.png" alt="android">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Official App store for the Android operating system, Google Play and Android Market.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74443?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74444?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/angieslist.png" alt="angieslist">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Reviews for local service providers.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74444?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74445?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/apartmentguide.png" alt="apartmentguide">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Apartment Guide is an online directory and resource site that connects apartment consumers to their ideal place to live.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74445?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74446?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/apartmentratings.png" alt="apartmentrating">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            ApartmentRatings.com is an online user generated database of information about apartment buildings in the United States.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74446?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74447?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/apfm.png" alt="apfm">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            A Place for Mom is a senior care referral service helping seniors, families, moms and dads find assisted living facilities.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74447?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74448?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/apple.png" alt="apple">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            The App Store is a digital distribution platform for Apps by Apple Inc.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74448?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74449?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/appleconsultant.png" alt="appleconsultant">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            The Apple Consultants Network is made up of independent, local companies offering IT services and solutions based around Apple products.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74449?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74450?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/avvo.png" alt="avvo">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            This site allows you to leave an anonymous review.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74450?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74451?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/bankrate.png" alt="bankrate">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Bankrate.com offers financial  tools, analysis and aggregators.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74451?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74452?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/bbb.png" alt="bbb">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            The BBB is a nonprofit organization that collects and provides free business reviews.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74452?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74453?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/bedandbreakfast.png" alt="bedandbreakfast">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            BedandBreakfast.com is a vacation rental website providing directory information and reviews.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74453?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74454?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/assetic/booking.png" alt="booking">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Booking.com is an online accommodation booking website.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74454?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74455?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/brides.png" alt="brides">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Brides.com is a online source for wedding planning, wedding ideas and advice.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74455?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74456?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/buildzoom.png" alt="buildzoom">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            BuildZoom is an online marketplace for general contractors and home improvement companies.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74456?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74457?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/canadastays.png" alt="canadastays">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            CanadaStays is a platform for travellers to search and book their vacation rental property.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74457?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74458?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/capterra.png" alt="capterra">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Capterra is designed to find business software. Offering software reviews, ratings &amp; infographics.
+
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74458?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74459?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/carehome.png" alt="carehomeuk">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Carehome.co.uk - is one of the the leading online guides to care homes and assisted living.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74459?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74460?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/care.png" alt="care">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Care.com connects families with caregivers and caring companies.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74460?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74461?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/caring.png" alt="caring">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Caring.com is a leading online destination for those seeking information and support as they care for aging parents, spouses, and other loved ones.
+
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74461?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74462?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/cars.png" alt="cars">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Cars.com is one of the largest automotive classified sites which also includes dealer reviews.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74462?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74463?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/carwise.png" alt="carwise">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Carwise.com is a online auto body shop review website.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74463?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74464?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/checkatrade.png" alt="checkatrade">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Directory of recommended and trusted tradesmen who have been vetted and monitored and meet our standards of trading. 
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74464?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74465?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/citysearch.png" alt="citysearch">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            You can also use your Facebook login to leave a review on Citysearch!
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74465?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74466?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/clutch.png" alt="clutch">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Clutch helps buyers of professional services and software find the best companies to meet a specific need.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74466?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74467?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/consumer-affairs.png" alt="consumeraffairs">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Consumer Affairs offers consumer news, reviews, complaints, resources and safety recalls.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74467?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74468?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/img/contractor.png" alt="contractor-1-800">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            1-800 Contractor is a directory of screened home improvement contractors in your area.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74468?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74469?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/cpapplus.png" alt="cpap">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            CPAP Plus is a distributor of CPAP products and related equipment.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74469?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74470?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/cratejoy.png" alt="cratejoy">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Cratejoy is a subscription marketplace for consumers to periodically receive a box with new products or samples.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74470?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74471?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/customerlobby.png" alt="customerlobby">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Customer Lobby offers repeat customer &amp; reviews software for service businesses.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74471?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74472?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/dealer_rater.png" alt="dealerrater">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Car Dealer Reviews and Helpful Consumer Information about dealerships.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74472?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74473?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/dexknows.png" alt="dexknows">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online Directory to find and review local businesses.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74473?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74474?customerId=19667205">
+                                                            <img src="http://http-assets.s3.amazonaws.com/review-links/doctors.png" alt="doctors">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Patients use Doctor.com to find, evaluate, and engage with providers best suited to address their specific needs.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74474?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74475?customerId=19667205">
+                                                            <img src="http://http-assets.s3.amazonaws.com/review-links/droogle.png" alt="droogle">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            DR.Oogle offers patient reviews and recommendations of dentists and dental specialists.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74475?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74476?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/ebay.png" alt="ebay">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Ebay provides consumer-to-consumer and business-to-consumer sales services via the internet.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74476?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74477?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/edmunds.png" alt="edmunds">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Edmunds.com, Inc. is an American online resource for automotive information and dealer ratings.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74477?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74478?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/ei-ei-home.png" alt="eieihome">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            EiEI offers articles &amp; ideas as well as contractor reviews for home renovation projects.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74478?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74479?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/etsy.png" alt="etsy">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Etsy is an e-commerce website focused on handmade items and supplies.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74479?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74480?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/assetic/expedia.png" alt="expedia">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Expedia is one of the leading online travel sites for airline tickets, hotel reservations, car rentals, cruises and vacation packages.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74480?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74481?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/foursquare.png" alt="foursquare">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Foursquare is a location-based social networking website.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74481?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74482?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/g2crowd.png" alt="g2crowd">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            G2 Crowd is a platform for users to share business software reviews.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74482?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74483?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/glassdoor.png" alt="glassdoor">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Glassdoor is a site where employees and former employees anonymously review companies and their management.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74483?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74484?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/goldbook.png" alt="goldbook">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Goldbook is a Local Business Directory servicing all markets in Canada.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74484?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74485?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/goodreads.png" alt="goodreads">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Goodreads is a website for readers and book recommendations to help people find and share books they love.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74485?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74486?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/googlev2.png" alt="google">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            If you already have a Google account, you can quickly leave us a review here.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74486?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74487?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/googlemaps.png" alt="googlemaps">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Find local businesses, read and leave reviews, view maps and get driving directions in Google Maps
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74487?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74488?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/greatschools.png" alt="greatschools">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            GreatSchools.org helps parents compare schools based on test scores and other available data, including student growth and college readiness.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74488?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74489?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/healthgrades.png" alt="healthgrades">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Healthgrades Inc. develops and markets quality and safety ratings of health care providers, including hospitals, nursing homes, physicians and dentists.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74489?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74490?customerId=19667205">
+                                                            <img src="http://http-assets.s3.amazonaws.com/review-links/healthgrove.png" alt="healthgrove">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            HealthGrove is a health news and information site with an emphasis on data-driven analysis.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74490?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74491?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/hearing-tracker-button-blue.png" alt="hearingtracker">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            HearingTracker.com is the leading consumer-review platform for hearing aids and hearing healthcare providers.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74491?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74492?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/hipages.png" alt="hipages">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Information on all home improvement projects, with a directory of trades people and home improvement professionals across Australia.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74492?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74493?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/highya.png" alt="highya">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            HighYa offers consumer reviews about companies and products.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74493?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74494?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/homeadvisor.png" alt="homeadvisor">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Professionals for home improvement, maintenance, and repair.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74494?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74495?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/homestars.png" alt="homestars">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            HomeStars includes homeowner reviews, photos and company profiles of home improvement companies in the U.S. and Canada
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74495?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74496?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/hostadvise.png" alt="hostadvise">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Host Advice offers web-hosting information, covering dozens of hosting companies and services worldwide.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74496?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74497?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/hotels.png" alt="hotels">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Hotels.com compares deals and offers and displays unbiased reviews on hotels.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74497?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74498?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/houzz.png" alt="houzz">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Home remodeling or decorating project professionals.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74498?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74499?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/indeed.png" alt="indeed">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Indeed helps companies of all sizes hire talent and offers opportunities for job seekers to get hired.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74499?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74500?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/insiderpages.png" alt="insiderpages">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            You can also use your Facebook login to leave a review on InsiderPages
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74500?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74501?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/judy.png" alt="judysbook">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Judys Book offers local reviews, recommendations, deals, and coupons
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74501?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74502?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/kilp.png" alt="kilp">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            KILP showcases businesses in your local region and helps  customers by having access to reviews and information.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74502?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74503?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/ksl.png" alt="ksl">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            KSL Local offers business directories, reviews and ratings.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74503?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74504?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/kudzu.png" alt="kudzu">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Kudzu makes it easy for you to choose the best service providers for your home and family.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74504?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74505?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/lawyerz.png" alt="lawyerratingz">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Website featuring ratings, reviews and recommendations for attorneys and lawyers.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74505?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74506?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/lawyers.png" alt="lawyers">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Lawyers.com is a source of information for the legal profession and information on lawyers available.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74506?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74507?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/leafly.png" alt="leafly">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Leafly is a cannabis information resource website and directory.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74507?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74508?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/lendingtree.png" alt="lendingtree">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            LendingTree compares and offers home loan, mortgage refinance, home equity loan, auto loan, and other loans from their network of lenders.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74508?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74509?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/linkedin.png" alt="linkedin">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            LinkedIn is a business-oriented social networking service
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74509?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74510?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/australialocalsearch.png" alt="localsearchau">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            LocalSearch provides listings and reviews of businesses and services in Australia.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74510?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74511?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/local.png" alt="local">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Local.com provides listings and reviews of businesses and services near you.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74511?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74512?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/manta.png" alt="manta">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online Directory to find and review local businesses.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74512?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74513?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/mstewartweddings.png" alt="marthastewartweddings">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Wedding planning, dresses &amp; gowns,rings &amp; jewelry, find honeymoon destination ideas, and get bridal shower ideas.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74513?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74514?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/merchantcircle.png" alt="merchantcircle">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online Directory to find and review local businesses.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74514?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74515?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/mybuilder.png" alt="mybuilder">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            MyBuilder helps customers find builders and tradespeople and review feedback for work they've done.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74515?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74516?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/mymovingreviews.png" alt="mymovingreviews">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            MyMovingReviews.com offers ratings and consumer reports on local and long distance movers.
+
+
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74516?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74517?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/n49ca.png" alt="n49ca">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online Directory to find and review local businesses throughout Canada.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74517?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74518?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/nextdoor.png" alt="nextdoor">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Nextdoor is the private social network for neighborhoods and communities.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74518?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74519?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/nine.png" alt="nine">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Nine9reviews.com: where models and actors share their stories.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74519?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74520?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/nursinghomesratings.png" alt="nursinghomeratings">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Nursing home ratings offers reviews, surveys and abuse reports for nursing facilities in all US states.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74520?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74521?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/openrice.png" alt="openrice">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            OpenRice is a food and restaurant guide website which currently operates in Hong Kong, Macao, China, Singapore, Indonesia, the Philippines and Thailand.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74521?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74522?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/opentable.png" alt="opentable">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            OpenTable offers online real-time restaurant-reservation services and restaurant reviews.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74522?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74523?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/assetic/orbitz.png" alt="orbitz">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Orbitz Worldwide, Inc. is a subsidiary of Expedia that operates a web site used to research, plan and book travel.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74523?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74524?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/pinterest.png" alt="pinterest ">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Pinterest is a visual discovery tool that you can use to find ideas for all your projects and interests.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74524?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74525?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/porch_360.png" alt="porch">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Porch.com offers searches for local home professionals and reviews of their past projects to find the best one for your home.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74525?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74526?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/pricegrabber.png" alt="pricegrabber">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            PriceGrabber.com is a price-comparison shopping website.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74526?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74527?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/privateschoolreview.png" alt="privateschoolreview">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Private School Review helps families learn about private schools, their benefits, and the application process.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74527?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74528?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/proreferral.png" alt="proreferral">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            The Home Depot Pro Referral matches customers, both online and in-store, with qualified local contractors.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74528?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74529?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/productreview.png" alt="productreview">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            ProductReview.com.au is a  consumer opinion site for Australia.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74529?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74530?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/ratemds.png" alt="ratemds">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Rate MDs is an online source for all things health including doctor ratings and reviews.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74530?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74531?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/realself.png" alt="realself">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Consumer reviews, stories, and discussions about cosmetic treatments and procedures for face, body, skin and smile.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74531?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74532?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/realtor.png" alt="realtor">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Realtor.com allows users to find a local real estate professional to help discover your perfect home. 
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74532?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74533?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/reviewcentre.png" alt="reviewcentre">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Description: Review Centre is one of the UK's largest customer review websites and covers a variety of areas.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74533?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74534?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/searchmagnet-local.png" alt="search-magnet-local">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Search Magnet Local offers advanced business directory listings.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74534?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74535?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/senioradvisor.png" alt="senioradvisor">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            SeniorAdvisor.com features trusted reviews and advice on local senior living communities, providing the information you need to make an informed decision.
+
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74535?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74536?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/seniorhomes.png" alt="seniorhomes">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Helps seniors and their families find housing and care for themselves and their loved ones by providing objective information and reviews.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74536?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74537?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/serchen.png" alt="serchen">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            The Serchen Marketplace enables buyers to search, compare &amp; evaluate software vendors.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74537?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74538?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/spafinder.png" alt="spafinder">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Spafinder, offers consumers comprehensive resources for wellness-related products, services and insights in the marketplace.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74538?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74539?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/sparefoot.png" alt="sparefoot">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            SpareFoot makes it easy to find, compare, and book a self-storage unit.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74539?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74540?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/superpages.png" alt="superpages">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online Directory to find and review local businesses powered by Yellow Pages. 
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74540?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74541?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/switchboard.png" alt="switchboard">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Switchboard.com offers White Pages search for telephone and address information.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74541?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74542?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/tauchernet.png" alt="taucher">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Taucher.net ist ein Online Portal mit Berichten zu Destinationen Weltweit sowie Equipment und Zubehör.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74542?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74543?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/the-knot.png" alt="theknot">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            The Knot Inc., is a media company targeted at couples who are planning their wedding.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74543?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74544?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/thebestofunitedkingdom.png" alt="thebestofunitedkingdom">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            The Best of United Kingdom is an online directory for UK businesses.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74544?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74545?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/thumbtack.png" alt="thumbtack">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online marketplace for local services. Matches service providers and consumers through an online directory.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74545?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74546?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/thursdaymarket.png" alt="thursdaymarket">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Thursday Market is a Social Referral Network for Local Professionals allowing users to search for and connect with local businesses
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74546?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74547?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/touchlocal.png" alt="touchlocal">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Touch Local offers a series of local directories with business listings, organized by location.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74547?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74548?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/towrankings.png" alt="towingrankings">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Towingrankings.com provides a comprehensive database of towing companies in and around the USA.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74548?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74549?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/transportrankings.png" alt="transportrankings">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Transportrankings.com serves as a repository in providing information about auto transport companies that solely operate in the United States.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74549?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74550?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/transportreviews.png" alt="transportreviews">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Transport Reviews is directory of auto transport companies rated and reviewed by past customers.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74550?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74551?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/trekaroo.png" alt="trekaroo">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Reviews on travel with kids, family fun, kid activities, kid-friendly hotels, resorts, and vacation packages for your next family trip.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74551?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74552?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/tripadvisor.png" alt="tripadvisor">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            TripAdvisor.com is a travel website providing directory information and reviews of travel-related content.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74552?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74553?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/truelocal.png" alt="truelocal">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            TrueLocal is an online directory of Australian businesses.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74553?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74554?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/trulia.png" alt="trulia">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Trulia is an online residential real estate site for home buyers, sellers, renters and real estate professionals. 
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74554?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74555?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/trustedtraders.png" alt="trustatrader">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            TrustATrader is one of the largest online trade directories in the UK
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74555?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74556?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/trustedpros.png" alt="trustedpros">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            TrustedPros allows homeowners to find and hire contractors for their home improvement projects.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74556?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74557?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/trustpilot.png" alt="trustpilot">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Trustpilot is an online review platform for ecommerce.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74557?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74558?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/twitter.png" alt="twitter">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Twitter is an online social networking and microblogging service.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74558?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74559?customerId=19667205">
+                                                            <img src="http://http-assets.s3.amazonaws.com/review-links/ucomparehealth.png" alt="ucomparehealth">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            UCompareHealthCare.com helps people make medically relevant healthcare comparisons.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74559?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                            <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74561?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/urbanspoon.png" alt="urbanspoon">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Urbanspoon is a restaurant information and recommendation service that operates in Australia, Canada, New Zealand, Ireland, the United Kingdom and the United States.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74561?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74562?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/viewpoints.png" alt="viewpoints">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Viewpoints is a popular consumer review platform.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74562?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74563?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/vitals.png" alt="vitals">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Find, rate or check up on a doctor in the United States. Search by location, specialty or ailment.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74563?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74564?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/wahanda.png" alt="wahanda">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Wahanda offers comprehensive listings of spas, salons and health centres around the globe.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74564?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74565?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/wallethub.png" alt="wallethub">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            WalletHub enables you to search, compare and review financial products, professionals and companies.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74565?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74566?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/weblocalca.png" alt="weblocal">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Canadian online directory and local search site for users looking for businesses in their local communities.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74566?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74567?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/webretailer.png" alt="webretailer">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Web Retailer is a free community site for businesses who sell through online marketplaces such as eBay and Amazon.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74567?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74568?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/wedding-wire.png" alt="weddingwire">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            WeddingWire Inc. operates online marketplaces for the wedding industry in 14 countries.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74568?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74569?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/wedding.png" alt="wedding">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Wedding.com lists vendors and  offers tools to plan weddings.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74569?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74570?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/weedmaps.png" alt="weedmaps">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Weedmaps is a medical marijuana patients community website.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74570?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74571?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/whatclinic.png" alt="whatclinic">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            WhatClinic.com helps patients find, compare and book the right clinics for them.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74571?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74572?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/whichtrustedtraders.png" alt="whichtrustedtrader">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Trusted Traders gives you the ability to choose local, reliable tradesmen. Find a builder, plumber or other trader in your area.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74572?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74573?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/whtop.png" alt="whtop">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            WHTop is a website with editorials and user reviews for webhosting worldwide.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74573?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74574?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/wordofmouth.png" alt="wordofmouth">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Word of Mouth is an Australian based business review site containing crowd-sourced reviews of local businesses.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74574?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74575?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/yell.png" alt="yell">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Local business and service directory for the UK.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74575?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74576?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/yellowbot.png" alt="yellowbot">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            YellowBot is a local search site for finding and reviewing businesses in your community (and elsewhere).
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74576?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74577?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/australiayellowpages.png" alt="yellowpagesaustralia">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online version of the printed directory, listing businesses and organizations according to the goods or services offered.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74577?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74578?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/yellowpagesnew.png" alt="yellowpagesca">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Canadian Yellow Pages
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74578?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74579?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/yellowpagesnew.png" alt="yellowpages">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online version of the printed directory, listing businesses and organizations according to the goods or services offered.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74579?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74580?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/zagat.png" alt="zagat">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            The Zagat Survey was established as a way to collect and correlate the ratings of restaurants by diners.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74580?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74581?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/zillow.png" alt="zillow">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Online real estate marketplace dedicated to helping homeowners, buyers, sellers, renters and real estate agents.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74581?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74582?customerId=19667205">
+                                                            <img src="https://http-assets.s3.amazonaws.com/review-links/zocdoc.png" alt="zocdoc">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            ZocDoc is an online medical care scheduling service, providing free  information about medical practices and doctors.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74582?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+                                <div class="social-link business-social-link">
+                <div class="overlay">
+                    <div class="left">
+                        <a target="_blank" href="/social-link-redirect/74583?customerId=19667205">
+                                                            <img src="https://s3.amazonaws.com/http-assets/review-links/zomato.png" alt="zomato">
+                                                    </a>
+                    </div>
+                                            <div class="text">
+                            Zomato is an online restaurant search and discovery service providing information on home delivery, dining-out, cafés and nightlife.
+                        </div>
+                                        <div class="right">
+                        <a class="submit" target="_blank" href="/social-link-redirect/74583?customerId=19667205">
+                            WRITE A REVIEW                        </a>
+                    </div>
+                </div>
+            </div>
+            
+
+<br>
+&nbsp;<br>
+Have a great day!<br>
+The Master Escape Room<br>
+&nbsp;
+            </div>
+        </div>
+
+            </div>
+
+                    <div class="hseparator"></div>
+        </div>
+    </div>
+    <footer>
+        <div class="content">
+                            <div id="poweredby">
+                    Powered by                    <a href="/">GetFiveStars</a>
+                </div>
+                        © 2017
+                            Kusicode
+                    </div>
+    </footer>
+            
+        <script type="text/javascript" src="/js/8298af0.js"></script>
+        
+
+</body></html>

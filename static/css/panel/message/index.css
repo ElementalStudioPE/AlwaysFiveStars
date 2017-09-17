@@ -1,0 +1,225 @@
+/*INICIO:ESTILOS DEL PANEL*/
+.search-principal {
+	display: none;
+}
+.panel_usuario
+{
+	background: #565a5c;
+}
+.panel_usuario .panel
+{
+	padding: 0% 1% 0 1%;
+}
+.panel_usuario .panel ul li
+{
+	display: inline-block;
+}
+.panel_usuario .panel ul li a
+{
+	color: #D3D3D3;
+	font-size: 14px;
+}
+@media screen and (min-width: 801px) {
+	.panel_usuario .panel ul li
+	{
+		padding: 1% 2% 0 0;
+	}
+	.panel_usuario .panel ul li .bottom
+	{
+		width: 100%;
+		border-bottom: 5px solid #f5f5f5;
+		padding-top: 8px;
+	}
+}
+
+@media screen and (min-width: 518px) and (max-width: 800px) {
+	.panel_usuario .panel ul .mobile_menu
+	{
+		background: #f5f5f5;
+	}
+	.panel_usuario .panel ul .mobile_menu a
+	{
+		color: #565a5c;
+	}
+	.panel_usuario .panel ul li
+	{
+		padding: 1% 2% 1% 0;
+		width: 30%;
+		text-align: center;
+	}
+}
+@media screen and (min-width: 311px) and (max-width: 517px) {
+	.panel_usuario .panel ul .mobile_menu
+	{
+		background: #f5f5f5;
+	}
+	.panel_usuario .panel ul .mobile_menu a
+	{
+		color: #565a5c;
+	}
+	.panel_usuario .panel ul li
+	{
+		padding: 1% 2% 1% 2%;
+		width: 45%;
+	}
+}
+@media screen and (max-width: 310px) {
+	.panel_usuario .panel ul .mobile_menu
+	{
+		background: #f5f5f5;
+	}
+	.panel_usuario .panel ul .mobile_menu a
+	{
+		color: #565a5c;
+	}
+	.panel_usuario .panel ul li
+	{
+		padding: 1% 2% 2% 3%;
+		width: 94%;
+	}
+}
+/*FINAL: ESTILOS DEL PANEL*/
+
+/*INICIO: ESTILOS DEL MIDDLE:PUBLICACIONES */
+#profile .middle
+{
+	min-height: 400px;
+}
+#profile .middle .recibidos .mess,#profile .middle .enviados .mess
+{
+	padding: 40px 10px 10px 10px;
+	background: white;
+	border-bottom: 1px solid #dce0e0;
+	font-size: 15px;
+	color: #565a5c;
+}
+#profile .middle .recibidos .title_mess,#profile .middle .enviados .title_mess
+{
+	padding: 10px 0;
+	display: inline-block;
+	margin-bottom: 15px;
+}
+#profile .middle .recibidos .cinta,#profile .middle .enviados .cinta
+{
+	width: 100%;
+	background: #E9E9E9;
+	position: relative;
+}
+#profile .middle .recibidos .cinta .name,#profile .middle .enviados .cinta .name
+{
+	padding: 5px 10px;
+}
+#profile .middle .recibidos .cinta .date,#profile .middle .enviados .cinta .date
+{
+	position: absolute;
+	right: 10px;
+	top: 7px;
+	color: #565a5c;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#profile .middle .recibidos .cinta .name a,#profile .middle .enviados .cinta .name a
+{
+	color: #565a5c;
+	font-size: 15px;
+}
+#profile .middle .recibidos .cinta .name a:hover,#profile .middle .enviados .cinta .name a:hover
+{
+	text-decoration: underline;
+}
+#profile .middle .recibidos .title_mess a,#profile .middle .enviados .title_mess a
+{
+	color: #565a5c;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#profile .middle .recibidos .title_mess a:hover,#profile .middle .enviados .title_mess a:hover
+{
+	text-decoration: underline;
+}
+#profile .middle .recibidos .mess p,#profile .middle .enviados .mess p
+{
+	margin-top: 5px;
+	height: 20px;
+	position: relative;
+	margin-bottom: 10px;
+}
+#profile .middle .recibidos .mess p span,#profile .middle .enviados .mess p span
+{
+	position: absolute;
+	left: 25px;
+	font-size: 14px;
+	width: 100%;
+}
+#profile .middle .recibidos .mess p img,#profile .middle .enviados .mess p img
+{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	left: 0;
+	border: 1px solid rgb(52, 52, 52);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+/*------------------------------------------------------------------------*/
+#profile .middle .recibidos .cinta p img,#profile .middle .enviados .cinta p img
+{
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border: 1px solid rgb(52, 52, 52);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#profile .middle .recibidos .mess p span a,#profile .middle .enviados .mess p span a
+{
+	position: absolute;
+	left: 10px;
+	font-size: 14px;
+}
+/*------------------------------------------------------------------------*/
+#profile .middle .recibidos .cinta p span,#profile .middle .enviados .cinta p span
+{
+	position: absolute;
+	left: 40px;
+	top: 13px;
+	font-size: 14px;
+}
+/*FIN: ESTILOS DEL MIDDLE:PUBLICACIONES */
+.content_usuario h1
+	{
+		color: #565a5c;
+		font-family: Helvetica, Arial, sans-serif;
+		font-weight: bold;
+	}
+@media screen and (min-width: 501px) {
+	.content_usuario h1
+	{
+		font-size: 27px;
+		margin: 20px 0;
+	}
+}
+@media screen and (max-width: 500px) {
+	.content_usuario h1
+	{
+		font-size: 23px;
+		margin: 12px 0;
+	}
+}
+.content_usuario h2
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	margin: 10px 0;
+}
+.content_usuario h2 a:hover
+{
+	text-decoration: underline;
+}

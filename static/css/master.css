@@ -1,0 +1,286 @@
+.footer-v6 .footer {
+	padding: 20px 0 0 0 !important;
+}
+.footer-v6 .footer p,.footer-v6 .footer ul li,.footer-v6 .footer ul li a {
+	color: #A2A2A2  !important;
+}
+.nomargin{
+	margin: 0 !important;
+}
+.nopadding{
+	padding: 0 !important;
+}
+.sgt_partido{
+	max-width: 300px;
+	margin: 10px auto 20px auto;
+	-webkit-box-shadow: 0 1px 4px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 4px 0px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 4px 0px rgba(0,0,0,0.5);
+}
+.sgt_partido .top{
+	padding: 10px 5px !important;
+}
+.sgt_partido .bottom{
+	padding: 10px 5px !important;
+}
+.sgt_partido .middle{
+	padding: 10px 5px 25px 5px !important;
+}
+.sgt_partido .middle_item_fixture{
+	padding: 15px 5px 15px 5px !important;	
+}
+.sgt_partido .middle_item_fixture_jugado{
+	padding: 15px 5px 30px 5px !important;
+	background: #FFFFFF !important;
+}
+.sgt_partido .top p{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 !important;
+	color: white;
+}
+.sgt_partido .bottom p{
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 !important;
+	color: white;
+}
+.sgt_partido .middle .team img{
+	max-width: 32px;
+}
+.sgt_partido .middle .team_left,
+.sgt_partido .middle .team_right
+{
+	text-align: center;
+}
+.sgt_partido .middle .date-hour .hour{
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0 !important;
+	color: white;
+}
+.sgt_partido .middle .date-hour .vs{
+	position: relative;
+	font-size: 18px;
+	font-weight: bold;
+	height: 20px;
+}
+.sgt_partido .middle .date-hour .vs em{
+	padding: 0 5px;
+	color: white;
+	height: 20px;
+	position: absolute;
+	width: 34px;
+	left: 34%;
+	top: 2px;
+	font-style: inherit;
+}
+.sgt_partido .middle .date-hour .vs span{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.sgt_partido .middle .date-hour .vs .icon-bar-top{
+	height: 12px;
+	border-bottom: 2px solid white;
+}
+.sgt_partido .middle .date-hour .vs .icon-bar-bottom{
+	height: 18px;
+	border-bottom: 2px solid white;
+}
+
+
+/* Categoria 1 */
+.ctg_1{
+	border: 1px solid #9C0D0D;
+}
+.ctg_1 .top{
+	background: #CE0505 !important;
+}
+.ctg_1 .top{
+	border-bottom: 1px solid #9C0D0D;
+}
+.ctg_1 .bottom{
+	background: #9C0D0D !important;
+}
+.ctg_1 .middle{
+	background: #CE0505 !important;
+}
+.ctg_1 .middle .date-hour .vs em{
+	background: #CE0505;
+}
+/* Fin - Categoria 1 */
+
+/* Categoria 2 */
+.ctg_2{
+	border: 1px solid #184B75;
+}
+.ctg_2 .top{
+	background: #22659E !important;
+}
+.ctg_2 .top{
+	border-bottom: 1px solid #184B75;
+}
+.ctg_2 .bottom{
+	background: #184B75 !important;
+}
+.ctg_2 .middle{
+	background: #22659E !important;
+}
+.ctg_2 .middle .date-hour .vs em{
+	background: #22659E;
+}
+/* Fin - Categoria 2 */
+
+
+/* Categoria 3 */
+.ctg_3{
+	border: 1px solid #11632A;
+}
+.ctg_3 .top{
+	background: #1C823C !important;
+}
+.ctg_3 .top{
+	border-bottom: 1px solid #11632A;
+}
+.ctg_3 .bottom{
+	background: #11632A !important;
+}
+.ctg_3 .middle{
+	background: #1C823C !important;
+}
+.ctg_3 .middle .date-hour .vs em{
+	background: #1C823C;
+}
+/* Fin - Categoria 3 */
+
+.vs .vs_res{
+	display: inline-block;
+	color: white !important;
+	font-family: 'Anton';
+	font-size: 30px;
+}
+/*.vs .gol{
+	font-size: 30px;
+	font-family: 'Anton';
+	}*/
+	@media (min-width: 768px) {
+		.head-right-non-xs {
+			float: right;
+		}
+		.head-left-non-xs {
+			float: left;
+		}
+	}
+	.owl-carousel .owl-wrapper-outer {
+		margin-top: 15px !important;
+	}
+
+
+
+
+
+
+
+
+
+/*.header-fixed .header-v2.header-fixed-shrink {
+	background: rgba(255, 255, 255, 0.88) !important;
+	}*/
+/*.header-fixed .header-v2 li a.men {
+	color: #FFFFFF !important;
+}
+.header-v2 .navbar{
+	position: absolute;
+	width: 100%;
+}
+.header-sticky .mega-menu{
+	background: rgba(0, 0, 0, 0.92);
+	margin-top: 0;
+}
+.dropdown-menu {
+	background-color: rgba(0, 0, 0, 0.92) !important; 
+}
+.dropdown-menu li a{
+	color: #eee !important;
+}
+.a_h3{
+	padding: 0 !important;
+	margin: 0 !important;
+}
+@media (min-width: 992px){
+	.header-v2 .dropdown-menu .active > a, .header-v2 .dropdown-menu li > a:hover {
+		color: #fff;
+		filter: none !important;
+		background: #285D3B !important;
+		-webkit-transition: all 0.1s ease-in-out;
+		-moz-transition: all 0.1s ease-in-out;
+		-o-transition: all 0.1s ease-in-out;
+		transition: all 0.1s ease-in-out;
+	}
+	.header-v2 .dropdown-menu .active > a.a_h3, .header-v2 .dropdown-menu li > a.a_h3:hover {
+		background: rgba(40, 93, 59, 0) !important;
+	}
+	}*/
+/*@media (max-width: 991px){
+	.drop_res{
+		display: none;
+	}
+	.drop_ul .drop_li{
+		text-align: left !important;
+	}
+	.header-v2 .mega-menu .equal-height-list h3 {
+		font-size: 13px;
+		border-bottom: 0;
+		color: white !important;
+	}
+	.header-v2 {
+		padding: 0 !important; 
+	}
+	.header-v2 .mega-menu .container{
+		margin-top: 15px !important;
+	}
+	.tp-banner-container{
+		padding-top: 65px;
+	}
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+		background-color: rgba(0, 0, 0, 0.36) !important;
+	}
+
+	}*/
+/*.interactive-slider-v2 {
+	background: url(http://files.websitebuilder.prositehosting.co.uk/fasthosts6398/image/cisco_telepresencei_yeniden_tanimliyor_herkese_gorusme_deneyimi_88780_1_large.jpg) no-repeat;
+	background-position-x: 45%;
+	background-position-y: 55%;
+	}*/
+/*.item{
+	border: 1px solid rgba(0, 0, 0, 0.7);
+}
+.a_none_deco:hover{
+	text-decoration: none !important;
+}
+#topcontrol{
+	display: none !important;
+}
+.modal {
+	z-index: 2001;
+}
+.contacto>li>a:focus, .contacto>li>a:hover {
+	color: #262626;
+	background-color: inherit !important; 
+}
+.contacto>li>a {
+	padding: 8px 20px !important;
+}
+.form-group-lt{
+	margin: 10px 0 !important;
+}
+.send-form-info,.send-form-info:hover,.send-form-info:focus{
+	background: #285D3B;
+}
+
+
+.body-text .p-format{
+	font-size: 14px !important;
+}*/
